@@ -19,21 +19,21 @@ background: #000;
 .cms-index-index .ratings{float:left;}
 .col2-left-layout .col-main{width: 97%;margin-right: 0%;padding-right:1%;margin-left:1%;}
 .col2-left-layout .col-main .form-list input.input-text{width:90%;}
-.header .logo img{width:250px;margin:4px 0 0 0}
+.header .logo img{width:200px;margin:4px 0 0 0}
 #slider{ max-width:500px;overflow:hidden}
 
 /*----header changes starts-----*/
-.header .quick-access {padding:0;position:relative;float: left;width:97%;}
-.header .welcome-msg {margin: -11% 0 0 0;text-align:left;font-size: 11px;}
-.header .links {float: left;margin: 2% 0% 0% 1%;width: 100%;}
+.header .quick-access {padding:0;position:absolute;float: left;width:97%;}
+.header .welcome-msg {margin: 0% 0 0 0;text-align:left;font-size: 12px;}
+.header .links {float: left;margin: 4% 0% 0% 1%;width: 100%;}
 .header .links li {padding: 0 4px 0 7px;}
 .header .links a {font-family: Myraid Pro;font-size: 13px;}
 .header .form-search label {display:none}
 
 /*----header changes ends-----*/
 /*---search bar style starts-----*/
-.header .logo {margin-top:0%;position:relative;z-index:100;}
-.header .form-search {position: relative;/*top: 8%;right: 0%;*/left:55%;width: 200px;height: 32px;padding: 1px 0 0 0px;margin: 0px 0 0 0px;}
+.header .logo { margin-top: 8%;padding: 1% 0 6%;position:relative;z-index:100;}
+.header .form-search {position: relative;top: 12%;/*top: 8%;right: 0%;*/left:55%;width: 200px;height: 32px;padding: 1px 0 0 0px;margin: 0px 0 0 0px;}
 .header .form-search input.input-text {float: left;margin-left: 4%;border-color: #fff;width: 150px;height: 25px;background-color: #fff;}
 .header .form-search button.button span {height: 31px;}
 .header .form-search button.button span span {background-position: 100% 15%;padding: 0px 8px 0 1px;}
@@ -70,15 +70,15 @@ background: #000;
 /*.widget-new-products .products-grid li.first{margin-left:6%;}
 .widget-new-products .products-grid li.item {margin-left:6%;}*/
 .products-bg {width:35%}
-.main-bg {min-width: 200px;min-height: 208px;
-overflow: hidden;}
+.main-bg {min-width: 200px;min-height: 208px;overflow: hidden;}
 .widget-new-products .next-product {margin: 9% 0% 0 0%;}
+.std .widget-new-products ul{padding-left: 0;}
 /*-----new Products style ends--------*/
 /*-------category&today products styling starts-----------*/
-.today-special {margin-top:3%;clear: none;float:left;/*margin-right:2%;*/width:49%;}
-.today-special .today-title {margin-top:0%;width:87%;margin-left: 13%;}
-.today-special .products-grid li.item{margin:1% 0 0 6%;}
-.today-special .products-bg{width:100%;padding:9% 0 0 3%;}
+.today-special {clear: none;float:left;/*margin-right:2%;*/width:49%;margin:3% 0 0 3%;}
+.today-special .today-title {margin-top:0%;width:87%;margin-left: 6%;}
+.today-special .products-grid li.item{margin:1% 0 0 10%;width: 210px;}
+.today-special .products-bg{width:100%;padding:9% 0 0 7%;}
 .cat-li {padding: 1.9em 0 1.9em 1em;}
 .category-block .cat-li.firstli {
 padding-top: 0.7em !important;
@@ -287,27 +287,28 @@ input.qty {width: 1.9em !important;}
 .js #nav { display: none; }
 .selectnav option{border: 1px solid;color:#fff;padding:10px !important; margin:2px;text-shadow:0 1px 0 rgba(0,0,0,0.4); -webkit-appearance: none; -moz-appearance: none;}
 .js .selectnav { display: block;   background: #B83939 !important;width: 100%;height: 35px;color: #fff; font-size: 15px;}
-.nav-container {margin: 8% 0 0 0;background:none !important;}
+.nav-container {margin: 10% 0 0 0;background:none !important;}
   /*.header .logo {
 background: #000;
 }*/
 .header{width:100%;}
-.header .logo img{width:270px;}
+.header .logo img{width:220px;}
 #slider{ max-width:590px;overflow:hidden}
 
 /*----header changes starts-----*/
-.header .quick-access {padding:0;position:absolute;float: left;width: 321px;}
-.header .welcome-msg {margin:-2% 9% 0% 1%;text-align:left;}
-.header .links {float: left;margin: 15% 9% 1% 1%;width:145%;}
+.header .quick-access {padding:0;position:absolute;float: left;width: 96%;}
+.header .welcome-msg {margin:0;text-align:left;float: left;font-size: 13px}
+.header .links {float: left;margin: 8% 2% 1% 1%;width:91%;}
 .header .links li {padding: 0 4px 0 7px;}
 .header .links a {font-family: Myraid Pro;font-size: 13px;}
 .header .form-search label {display:none}
+.place {margin-right: 0;}
 
 /*----header changes ends-----*/
 /*---search bar style starts-----*/
-.header .logo {margin-top:1%;position:relative;z-index:100;}
-.header .form-search {position: absolute;top: 9%;right: 0%;left:80%;width: 308px;height: 32px;background: url(../images/bkg_form-search.gif) 0 0 no-repeat;padding: 1px 0 0 0px;margin: 3px 0 0 0px;}
-.header .form-search input.input-text {float: left;margin-left: 24%;border-color: #fff;width: 185px;height: 25px;background-color: #fff;}
+.header .logo {margin-top:5%;float:left;position:relative;z-index:100;}
+.header .form-search {position: absolute;top: 0%;right: 0%;/*left:87%;*/float:right;width: 220px;height: 32px;padding: 1px 0 0 0px;margin: 3px 0 0 0px;}
+.header .form-search input.input-text {float: left;margin-left: 0%;border-color: #fff;width: 180px;height: 25px;background-color: #fff;}
 .header .form-search button.button span {height: 31px;}
 .header .form-search button.button span span {background-position: 100% 15%;padding: 0px 8px 0 1px;}
 /*---search bar style ends-------*/
@@ -353,6 +354,7 @@ overflow: hidden;}
 /*-------category&today products styling starts-----------*/
 .today-special {clear: none;float:left;/*margin-right: -4%;*/width:43%;margin-left:6%;margin-top:3%}
 .today-special .today-title {margin-top:0%;width: 81%;margin-left:13px;}
+.today-special .products-grid li.item{margin: 1% 0 0 9%;}
 .cat-li {padding: 1.9em 0 1.9em 1em;}
 .category-block .cat-li.firstli {
 padding-top: 0.7em !important;
@@ -503,16 +505,16 @@ input.qty {width: 1.9em !important;}
 	.today-special .next-product {margin: 13% 0% 0 0%;}
 /*----header changes starts-----*/
 .header .quick-access {padding:0;position:absolute;float: left;width: 305px;}
-.header .welcome-msg {margin:-4% 0 0% 1%;text-align:left;}
-.header .links {float: left;margin: 8% 0 4% 1%;}
+.header .welcome-msg {margin:0% 0 0% 1%;text-align:left;}
+.header .links {float: left;margin: 16% 0 4% 1%;}
 .header .links li {padding: 0 4px 0 7px;}
 .header .links a {font-family: Myraid Pro;font-size: 11.5px;}
 .header .form-search label {display:none}
 
 /*----header changes ends-----*/
 /*---search bar style starts-----*/
-.header .logo {margin-top:0%;position:relative;z-index:100;}
-.header .form-search {position: absolute;top: 0%;right: -1%;width: 188px;height: 21px;background: url(../images/bkg_form-search.gif) 0 0 no-repeat;padding: 1px 0 0 0px;margin: 3px 0 0 0px;}
+.header .logo {margin-top:13%;position:relative;z-index:100;}
+.header .form-search {position: absolute;top: 0%;right: -2%;width: 188px;height: 21px;padding: 1px 0 0 0px;margin: 0;}
 .header .form-search input.input-text {float: left;margin-left: 27%;border-color: #fff;width: 100px;height: 20px;background-color: #fff;}
 .header .form-search button.button span {height: 26px;}
 .header .form-search button.button span span {background-position: 100% 15%;padding: 0px 8px 0 1px;}
@@ -695,14 +697,17 @@ background: #000;
 .col2-left-layout .col-main{width: 97%;margin-right: 0%;padding-right:1%;margin-left:1%;}
 .col2-left-layout .col-main .form-list input.input-text{width:90%;}
 body{width:100%;}
-.header .logo img{width: 340px;}
+.header .logo img{width: 240px;}
 
 .header {width: 100%;margin:0 ;}
 .breadcrumbs {margin: 5px 0 13px 2px;padding-top: 10px;}
 .nav-container {/*width:80%;margin:0 ;*/}
-.header .quick-access {padding:19px 0px 1px 0;}
+.header .quick-access {padding:19px 0px 1px 0;width:310px;}
 .place{margin-right:32px}
-@-moz-document url-prefix() {.header .welcome-msg { margin: -14% 0 0 0;    text-align: right;}}
+@-moz-document url-prefix() {.header .welcome-msg { margin: 0 0 0 0;    text-align: right;}}
+.header .form-search{width: 330px;right: 2%;margin: 50px 0 0;}
+.header .form-search input.input-text{width:250px;}
+.header .links{margin: 15% 0 0;}
 
 /* -----Homepage products Styling starts----*/
 .widget-new-products .products-grid .ulone{margin-top:0 !important;}
@@ -744,7 +749,7 @@ body{width:100%;}
 /*.onsale-div{margin-left:2%;}*/
 
 .left-overall{width: 23%;margin-left: 1%;}
-.productsNew {margin-left:0;}
+.productsNew {margin-left:0;width:75%;}
 .product-view{width:100%;}
 
 /*---------Inner page styling starts------------*/
@@ -848,13 +853,15 @@ input.qty {width: 1.9em !important;}
 .send-friend{margin-left:2%;width:106.5%;}
 }
 /*---------------Ipad Protrait mode style ends---------*/
+
+/*Ipda Landscape Mode Style Starts------------*/
 @media only screen and (min-width: 1000px) and (max-width: 1040px) {
 
 .header{width:898px;margin:0 auto;}
 .nav-container {width:100%;margin:0 ;}
 .place {margin-right: 37px;}
 .free_shipping_font {margin-top:-8%;}
-@-moz-document url-prefix() {.header .welcome-msg {margin: -15% 0% 0% 51%;text-align:right;}}
+@-moz-document url-prefix() {.header .welcome-msg {margin: 0%;text-align:right;}}
 .footer-container{width:900px;}
 /*---------Inner page styling starts------------*/
 .pager .amount {float: left;}
@@ -865,7 +872,8 @@ input.qty {width: 1.9em !important;}
 .category-image img {width: 85%;}
 
 /*.catalog-category-view .products-grid .ratings {padding:2% 0 0 12%;}*/
-
+.header .form-search{ margin: 40px 0 0;width: 327px;}
+.header .form-search input.input-text{width: 250px;}
 
 .product-view .box-tags .form-add input.input-text {width:95%;}
 .product-view .box-tags .form-add button.button span{background:#C4121C;border:none;margin:0px 0 0 13px;padding: 0 12px 0 0;}

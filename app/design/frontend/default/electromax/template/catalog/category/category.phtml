@@ -15,22 +15,12 @@
                 </a>
                  <?php $_category = Mage::getModel('catalog/category')->load($_category->getId()) ?>
                 <?php $_subcategories = $_category->getChildrenCategories() ?>
-                <!--- product count under each category starts ------>
+                <!--- product count under each category starts -->
                <?php $collection = Mage::getModel('catalog/product')->getCollection()->addCategoryFilter($_category);?>
 
 				<?php echo "(".count($collection).")"; ?>
-				<!--- product count under each category ends ------ !>
-             <!-- category count starts ---->
-                <!--<?php $count = count($_subcategories); ?>
-                <?php foreach($_subcategories as $sub){
-				      //  while(count$sub->getChildrenCategories())
-				        $childcat = Mage::getModel('catalog/category')->load($sub->getId());
-				        $sub_cat = $childcat->getChildrenCategories();
-				        $count += count($sub_cat) ;
-				          
-				}?>
-                <?php echo "(".$count.")";?> -->
-                <!-- category count ends ---->
+				<!--- product count under each category ends -->
+            
             </li>
         <?php endforeach; ?>
     </ul>

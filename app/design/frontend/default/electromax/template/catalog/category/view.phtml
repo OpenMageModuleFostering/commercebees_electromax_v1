@@ -113,7 +113,10 @@ function getCategoryImage(Mage_Catalog_Model_Category $category, $width, $height
 						
 						<img src="<?php echo Mage::getBaseUrl('media').'catalog' . DS . 'category' . DS.$_categorysub->getThumbnail() ?>" alt="<?php echo $this->escapeHtml($_categorysub->getName())?>" alt="<?php echo $this->escapeHtml($_categorysub->getName())?>" />		
 						<?php } else {?>
-						<div class="no-image"style="text-align:center;"><img src="<?php echo $this->getSkinUrl('images/No-image-palceholder.png');?>" alt="<?php echo $this->__('No Category Image Found')?>"/></div>
+						<div class="no-image"style="text-align:center;"><img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'wysiwyg/'.Mage::getStoreConfig('catalog/placeholder_category/placeholder_category')?>" alt="<?php echo $this->__('No Categorys Image Found')?>" width="180px"/>
+						
+						</div>
+						
 						<?php } ?>	
 						</a>
 						<div class="cat-name" style="margin-top:7px;width:140px;margin:0 auto;font-weight:bold;">
