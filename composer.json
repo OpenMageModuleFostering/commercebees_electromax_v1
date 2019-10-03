@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/commercebees_electromax_v1",
+    "name": "OpenMageModuleFostering\/commercebees_electromax_v1",
     "type": "magento-module",
     "license": "Creative-Commons-License",
     "homepage": "",
     "description": "Electromax is a responsive magento theme created by commercebees.com",
     "authors": [
-    {
-        "name": "Commerce Bees",
-        "email": "support@commercebees.com"
-    }
-],
+        {
+            "name": "Commerce Bees",
+            "email": "support@commercebees.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
